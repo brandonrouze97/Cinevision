@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cinevision - Production Audiovisuelle</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="navbar">
+    <img src="logo.png" class="logo">
+    <nav>
+        <a href="#work">Réalisations</a>
+        <a href="#services">Services</a>
+        <a href="#contact" class="btn-nav">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Donnez vie à votre vision.</h1>
+        <p>Production vidéo premium pour marques ambitieuses.</p>
+        <a href="#contact" class="btn-primary">Démarrer un projet</a>
+    </div>
+</section>
+
+<section id="work" class="work">
+    <h2>Nos Réalisations</h2>
+    <div class="work-grid">
+        <div class="work-item"></div>
+        <div class="work-item"></div>
+        <div class="work-item"></div>
+    </div>
+</section>
+
+<section id="services" class="services">
+    <h2>Nos Services</h2>
+    <div class="services-grid">
+        <div class="service-card">
+            <h3>Film Publicitaire</h3>
+            <p>Création de vidéos impactantes pour développer votre image de marque.</p>
+        </div>
+        <div class="service-card">
+            <h3>Aftermovie & Event</h3>
+            <p>Captation et montage dynamique pour événements et lancements.</p>
+        </div>
+        <div class="service-card">
+            <h3>Contenu Social Media</h3>
+            <p>Formats courts optimisés pour Instagram, TikTok et YouTube.</p>
+        </div>
+    </div>
+</section>
+
+<section class="about">
+    <h2>Pourquoi Cinevision ?</h2>
+    <p>
+        Nous combinons storytelling cinématographique, technologie avancée et stratégie marketing pour produire des vidéos qui génèrent de l'impact.
+    </p>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contactez-nous</h2>
+    <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact">
+        <input type="text" name="name" placeholder="Votre nom" required>
+        <input type="email" name="email" placeholder="Votre email" required>
+        <textarea name="message" placeholder="Parlez-nous de votre projet"></textarea>
+        <button type="submit">Envoyer</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Cinevision. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
